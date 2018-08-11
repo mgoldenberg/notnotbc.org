@@ -1,0 +1,32 @@
+body {
+  font-family: courier new;
+  font-size: 70%;
+}
+
+.layout {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.column-header {
+	font-weight: normal;
+	text-align: left;
+	padding-left: 1%;
+}
+
+.row-header {
+	font-weight: normal;
+  text-align: right;
+	vertical-align: top;
+  font-style: italic;
+  color: gray;
+	padding-right: 1%;
+	width: 10%;
+	overflow-wrap: break-word;
+}
+
+.row-content {
+	vertical-align: top;
+	padding-left: 1%;
+	border-left: 1px solid black;
+}
